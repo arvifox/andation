@@ -14,3 +14,7 @@ inline fun <T : androidx.fragment.app.Fragment> T.applyArgs(argInitializer: Bund
   arguments = (arguments ?: Bundle()).apply(argInitializer)
   return this
 }
+
+fun qwe(): Bundle {
+  return Bundle()
+}
